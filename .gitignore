@@ -1,0 +1,34 @@
+# Build output
+build/
+out/
+x64/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ilk
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Generated shaders (rebuilt by CMake)
+*.spv
+
+# Per-user editor layout
+bionica_layout.ini
+
+# Temporary
+*.bak
+*.tmp
+desktop.ini
+Thumbs.db
